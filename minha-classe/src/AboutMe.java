@@ -1,12 +1,16 @@
-public class AboutMe {
-    public static void main(String[] args) {
-        String nome = args [0];
-        String sobrenome = args [1];
-        int idade = Integer.valueOf(args[2]);
-        double altura = Double.valueOf(args[3]);
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+import java.util.Scanner;
 
-        System.out.println("Olá, me chamo" + nome + " " + sobrenome + ".");
-        System.out.println("Tenho" + idade + "anos");
-        System.out.println("Minha altura é: " + altura + "cm.");
-    }
-}
+public class AboutMe {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int A, B, PROD;
+		
+		A = sc.nextInt();
+		B = sc.nextInt();
+		 //TODO: Complete os espaços em branco com uma possível solução para o desafio 
+		PROD =  (A * B); 
+
+		System.out.println("PROD = " +  PROD   );
+	}
